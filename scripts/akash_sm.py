@@ -28,7 +28,7 @@ def generate_playlists():
 
     for channel_id in range(100, 411):
         try:
-            api_url = f"https://kong.akash-go.com/content-detail/pub/api/v6/channels/{channel_id}"
+            api_url = f"https://kong.akash-go.com/content-detail/pub/api/v7/channels/{channel_id}"
             headers = {
                 'User-Agent': get_random_user_agent(),
                 'Accept': 'application/json, text/plain, */*',
